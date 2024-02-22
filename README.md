@@ -6,5 +6,4 @@ The 'DomainValueExtractor' script is a Python tool designed to extract values as
 
 
 Upcoming Plans
-- prompt for input of usernames, add domain on end
 - prompt for detault list, add domain on end

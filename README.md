@@ -7,3 +7,6 @@ The 'DomainExtractor' script is a Python tool designed to extract values associa
 Add a domain name onto a list of usernames, creating a new file. 
 
 This Python script facilitates the process of appending a domain name to a list of usernames stored in a line-separated text file. Upon receiving the file path and domain name from the user, it reads the usernames, appends the domain to each username, and writes the updated list to a new text file named after the provided domain followed by "_newUsernames.txt".
+
+# Gmail Verification (Google Sheet)
+A Google Sheet template to verify gmail email accounts (with instructions). 

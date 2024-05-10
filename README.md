@@ -14,9 +14,9 @@ This Python script facilitates the process of appending a domain name to a list 
 A Google Sheet template to verify gmail email accounts (with instructions). 
 
 WARNING: To work properly, you must open this as a Google Sheet. 
-1. Input the emails here that you would like to verify.
-2. Copy and paste the same list from Column A. 
-Then, select all of column B and Select Insert > Smart Chips > Convert to people chip
+1. Input the emails in Column A that you would like to verify.
+2. Copy and paste the same list from Column A to Column B.
+3. Select column B and modify the row by choosing Insert > Smart Chips > Convert to people chip
 
 This form will have worked as expected if the People chip causes the True/False to 
 trigger in columnn C and if a verified list outputs into column D. 

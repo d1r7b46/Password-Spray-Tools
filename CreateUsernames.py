@@ -13,6 +13,10 @@ def create_usernames(names, format_choice):
                 usernames.append(f"{name}{letter}")
             elif format_choice == '4':  # last.f
                 usernames.append(f"{name}.{letter}")
+            elif format_choice == '5':  # f_last
+                usernames.append(f"{letter}_{name}")
+            elif format_choice == '6':  # last_f
+                usernames.append(f"{name}_{letter}")
 
     return usernames
 
@@ -33,8 +37,10 @@ def main():
         print("2. f.last")
         print("3. lastf")
         print("4. last.f")
+        print("5. f_last")
+        print("6. last_f")
 
-        format_choice = input("Enter the option number (1-4): ")
+        format_choice = input("Enter the option number (1-6): ")
         
         # Create usernames based on user choice
         usernames = create_usernames(names, format_choice)
